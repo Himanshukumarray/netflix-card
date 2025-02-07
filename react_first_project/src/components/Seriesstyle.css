@@ -1,0 +1,60 @@
+.heading{
+    color: rgba(78, 145, 156, 0.918);
+}
+
+.card {
+    width: 300px; /* Set fixed width */
+    background-color: #1c1c1c; /* Dark theme */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    list-style: none; /* Remove default list styles */
+    margin: 20px; /* Add space between cards */
+    text-align: center; /* Center content */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+  }
+  
+  .card img {
+    width: 100%; /* Ensure image fills container */
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card_content {
+    padding: 15px; /* Space inside the card */
+  }
+  
+  .card h2,
+  .card h3,
+  .card p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .card a {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .card button {
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #ff1e27; /* Slightly lighter red */
+    box-shadow: 0 4px 8px rgba(255, 30, 39, 0.6); /* Glow effect on hover */
+  }
+  
