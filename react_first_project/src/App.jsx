@@ -98,7 +98,7 @@ import './components/Seriesstyle.css'
 export const App = () => {
   return(
   <section className="container">
-    <h1 className="heading" style={{ textAlign: "center", marginBottom:"3rem" , fontSize:"3rem"}}>
+    <h1 className="heading" style={{ textAlign: "center", marginBottom:"5rem" , fontSize:"3rem"}}>
   World Best Netflix Web Series
 </h1>
     < Socialmedia />
